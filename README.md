@@ -1,4 +1,4 @@
-# IF975 - Projeto-2018.1
+# IF975 - Projeto 2018.1
 
 ## Introdução:
 Este projeto é dividido em 3 questões, que estão relacionadas com temas abordados em sala de aula. As respostas devem ser anexadas no mesmo e-mail, juntamente com um relatório especificando o que foi feito em cada uma delas.
