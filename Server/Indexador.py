@@ -17,6 +17,8 @@ def TemplateFolder(raiz, nome, compart):
 
 #Cria o database e a pasta
 def CreateProfile(user):
+    if not Gerenciador.CheckExistsFolder(base):
+        os.mkdir(base)
     if not Gerenciador.CheckExistsJSON(base + user + ".json"):
         CreateJSON(user)
     if not Gerenciador.CheckExistsFolder(base + user + "/"):
