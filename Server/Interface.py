@@ -90,7 +90,7 @@ class Usuario():
 
     #Tudo feito na parte do Servidor mesmo
     def Registrar(self, comandos):
-        u = comandos[0][1:][:-1]
+        u = comandos[0][1:][:-1].lower()
         self.Serv.CreateUser(self.conn, u)
         
 
